@@ -1,0 +1,77 @@
+{
+  "P2": {
+    "scope": "内折1 / 4121, 4096拟合窗与128步，固定T03报警",
+    "T03": "cce921d90c27ab2a-F02-R07",
+    "source_sha256": "c1c785acbd65df97aa4a37d5dee4a8e2488a35bfc983a06577ebb817537342f3",
+    "methods": {
+      "A00": {
+        "Macro-F1": 0.30137405146474694,
+        "fixed_T03_typed_f1": 0.391304347826087,
+        "b_AUROC": 0.7747077033972152,
+        "b_AUPRC": 0.6125444359769642
+      },
+      "A01": {
+        "Macro-F1": 0.3049080772498241,
+        "fixed_T03_typed_f1": 0.391304347826087,
+        "b_AUROC": 0.7748002453500504,
+        "b_AUPRC": 0.6125261047505729
+      },
+      "A02": {
+        "Macro-F1": 0.30572302836013343,
+        "fixed_T03_typed_f1": 0.391304347826087,
+        "b_AUROC": 0.7744357414576586,
+        "b_AUPRC": 0.6136868933674277
+      },
+      "A03": {
+        "Macro-F1": 0.30446987376002654,
+        "fixed_T03_typed_f1": 0.391304347826087,
+        "b_AUROC": 0.7749314879057076,
+        "b_AUPRC": 0.613057411178462
+      },
+      "A04": {
+        "Macro-F1": 0.3071675320404063,
+        "fixed_T03_typed_f1": 0.3938618925831202,
+        "b_AUROC": 0.7748860400741373,
+        "b_AUPRC": 0.61419127996281
+      },
+      "bias": {
+        "Macro-F1": 0.30136950899015236,
+        "fixed_T03_typed_f1": 0.391304347826087,
+        "b_AUROC": 0.7747076948672168,
+        "b_AUPRC": 0.6125444359769642
+      },
+      "mean_bias": {
+        "Macro-F1": 0.30374513513849577,
+        "fixed_T03_typed_f1": 0.391304347826087,
+        "b_AUROC": 0.7747076948672168,
+        "b_AUPRC": 0.6125444359769642
+      }
+    }
+  },
+  "R0": {
+    "source_sha256": "0e4b6a7bb1b682691beb9ffdabd9bbe1546d014f829d765432bee1a6dfe551e3",
+    "T03": "cce921d90c27ab2a-F02-R07",
+    "batch_max_fp32_vs_original": 0.01819157600402832
+  },
+  "R1": {
+    "status": "completed",
+    "primary_scope": "内折1 / 4121 / 128步",
+    "source_sha256": "f8112cfcccfb557a4cb4a885d929f2932ecd6f2be077e350ccf2e9ae33dbeffd",
+    "FP32_256_pass": true,
+    "R05_effective_steps": 29
+  },
+  "R2": {
+    "status": "completed",
+    "coverage": {
+      "people": 20,
+      "runs": 9,
+      "nights": 60
+    },
+    "source_sha256": "da6bb9816da6b583c002d97cf411e29982bd52db457470381b3ad32dc1796b51"
+  },
+  "PAEL": {
+    "status": "completed_512",
+    "source_sha256": "1ad955b8586ba36926ef3041af98fdc6a0ef0def8b8a8a1913d59032874e445c",
+    "advancing_candidates": []
+  }
+}

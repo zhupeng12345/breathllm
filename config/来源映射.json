@@ -1,0 +1,623 @@
+{
+  "asset_policy": {
+    "EXCLUDE": [
+      "真实信号与衍生个体文件",
+      "原始完整工作区及 Git、环境配置",
+      "各级逐秒预测、模型快照、缓存、失败实验中间文件",
+      "论文正文 PDF、工作表及图像"
+    ],
+    "EXTERNAL": [
+      "data/ucddb 官方记录和标注",
+      "锁定 Gemma 与 OpenTSLM 睡眠权重",
+      "可选历史 T03 封存库"
+    ]
+  },
+  "files": {
+    ".agents/skills/breath5-track-a/SKILL.md": {
+      "bytes": 3250,
+      "class": "KEEP_REFERENCE",
+      "original_path": ".agents/skills/breath5-track-a/SKILL.md",
+      "original_sha256": "e7954c460949451cf58411295ed38c3720b6c3433d0276c22aeac08a6c3eccbe",
+      "sha256": "639c6027642006010757f3077f4f4a780fc611fb9a7fc3b8076024915bb53234"
+    },
+    ".gitignore": {
+      "bytes": 614,
+      "class": "KEEP_CORE",
+      "sha256": "cea2862145fded92279607f21f19e7239d68ae58bb3bb3d3624402b95fc6b1f8"
+    },
+    "AGENTS.md": {
+      "bytes": 2485,
+      "class": "KEEP_REFERENCE",
+      "original_path": "AGENTS.md",
+      "original_sha256": "ccab28d17f731316519e655bace5177518b82510773eb80489f52a62dea4c0ff",
+      "sha256": "8d9882ac550a286ced5c4c7f14a1fa1aa729a415acc99d58bdc3714b1cb85559"
+    },
+    "README.md": {
+      "bytes": 6438,
+      "class": "KEEP_CORE",
+      "original_path": "README.md",
+      "original_sha256": "d991ccfb4fabbffd1b4daa50113b83ace07abdad70a9c0f1078f2a450e43cb07",
+      "sha256": "2f5541b85c2fa231a8487edab38917fe8898f14a870d43571391a444a1fec680"
+    },
+    "breath5/experiments/paper_eval/nested_split.csv": {
+      "bytes": 9253,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/experiments/paper_eval/nested_split.csv",
+      "original_sha256": "656b8adaff7cdb753f861c1fcc6a5b82f2cd7b8ac9af5c014d701c1610feb431",
+      "sha256": "656b8adaff7cdb753f861c1fcc6a5b82f2cd7b8ac9af5c014d701c1610feb431"
+    },
+    "breath5/src/classical.py": {
+      "bytes": 9615,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/classical.py",
+      "original_sha256": "0af62343e4edcf4f803ac55fb68164f010238d778d62faf2f60192ca52414db7",
+      "sha256": "0af62343e4edcf4f803ac55fb68164f010238d778d62faf2f60192ca52414db7"
+    },
+    "breath5/src/data/sliding_window_60s.py": {
+      "bytes": 1120,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/data/sliding_window_60s.py",
+      "original_sha256": "0c499a244fe2d12d3c4b517a40bde23df263f8fd1a6211cb2f30854386734738",
+      "sha256": "0c499a244fe2d12d3c4b517a40bde23df263f8fd1a6211cb2f30854386734738"
+    },
+    "breath5/src/experiment_data.py": {
+      "bytes": 3976,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/experiment_data.py",
+      "original_sha256": "f32072a7e7363dcfc387fccf84c210476c253493ecefc3c24126531353d6398f",
+      "sha256": "9de12afaecb0cbcae8c03a8b98aacbb331f0f959aa4a339afefc230e88f3960b"
+    },
+    "breath5/src/labels/resp.py": {
+      "bytes": 1961,
+      "class": "KEEP_CORE",
+      "original_path": "v1.0/tools/audit_ucddb.py",
+      "original_sha256": "ea7cb5b36bc80438819501b15769380970b14c8f5dbad263f0aa9ef85f2d16a6",
+      "sha256": "82901820b2235a3ba8e8f1d7aaf287783659d3c312556eaf5bcd47ca291f7248"
+    },
+    "breath5/src/labels/second_level_labels.py": {
+      "bytes": 1893,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/labels/second_level_labels.py",
+      "original_sha256": "398cee28efd8de5350b0343e788be087fd4a6f50ced2567eef2bedfd5a19dd03",
+      "sha256": "398cee28efd8de5350b0343e788be087fd4a6f50ced2567eef2bedfd5a19dd03"
+    },
+    "breath5/src/labels/ucddb_mapping.py": {
+      "bytes": 481,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/labels/ucddb_mapping.py",
+      "original_sha256": "73b416bdd19b84a2813ff94dfeb177c358b3ce58f693afe1538ac50d286c719a",
+      "sha256": "73b416bdd19b84a2813ff94dfeb177c358b3ce58f693afe1538ac50d286c719a"
+    },
+    "breath5/src/losses/hierarchical_loss.py": {
+      "bytes": 1535,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/losses/hierarchical_loss.py",
+      "original_sha256": "170a304928968068aa8c53cb42104f065e4c759c11425c1abf8a003d74aa09b9",
+      "sha256": "170a304928968068aa8c53cb42104f065e4c759c11425c1abf8a003d74aa09b9"
+    },
+    "breath5/src/metrics.py": {
+      "bytes": 1683,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/metrics.py",
+      "original_sha256": "b4487122b9fead6ab3d3c7b2e3a2a61a1ef09ddf330b95247a690faea221be60",
+      "sha256": "b4487122b9fead6ab3d3c7b2e3a2a61a1ef09ddf330b95247a690faea221be60"
+    },
+    "breath5/src/models/cheng_mil.py": {
+      "bytes": 986,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/models/cheng_mil.py",
+      "original_sha256": "a75cfb4d62ea9812d8832ca724d6e36c2e231bbfeec46134fde29f6524ace58b",
+      "sha256": "a75cfb4d62ea9812d8832ca724d6e36c2e231bbfeec46134fde29f6524ace58b"
+    },
+    "breath5/src/models/cnn_lstm_teacher.py": {
+      "bytes": 750,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/models/cnn_lstm_teacher.py",
+      "original_sha256": "2aba319a63ca20b3b2b2f4a96700d8ee2107584b3cbc638aec855b4f4559061f",
+      "sha256": "2aba319a63ca20b3b2b2f4a96700d8ee2107584b3cbc638aec855b4f4559061f"
+    },
+    "breath5/src/models/e0_five_class.py": {
+      "bytes": 6457,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/models/e0_five_class.py",
+      "original_sha256": "47388b142d19d7a2d06eb7dbd7d7e3229a93a6339edbbe17755e614a90eadd0f",
+      "sha256": "47388b142d19d7a2d06eb7dbd7d7e3229a93a6339edbbe17755e614a90eadd0f"
+    },
+    "breath5/src/models/hierarchical_decoder.py": {
+      "bytes": 1092,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/models/hierarchical_decoder.py",
+      "original_sha256": "8efdbbf6d33025be9f5fad0aed8ac49c30ebf8e2789305ae375cf65c17f3c588",
+      "sha256": "8efdbbf6d33025be9f5fad0aed8ac49c30ebf8e2789305ae375cf65c17f3c588"
+    },
+    "breath5/src/models/resnet1d.py": {
+      "bytes": 717,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/models/resnet1d.py",
+      "original_sha256": "12f35ead1a37a48c15c0be387c9a25cbe219c29347b011dd295ccebdb27730f5",
+      "sha256": "12f35ead1a37a48c15c0be387c9a25cbe219c29347b011dd295ccebdb27730f5"
+    },
+    "breath5/src/models/tcn.py": {
+      "bytes": 654,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/models/tcn.py",
+      "original_sha256": "e08b719323a9c534516b814c4dddf0c584bee5d13d14674e4aec933811971c73",
+      "sha256": "e08b719323a9c534516b814c4dddf0c584bee5d13d14674e4aec933811971c73"
+    },
+    "breath5/src/models/yu_lstm_cnn.py": {
+      "bytes": 579,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/models/yu_lstm_cnn.py",
+      "original_sha256": "052910de0ac39523002dbdf5d86b5b1fd6e35c9b9cd34a6f394ca1711459d2aa",
+      "sha256": "052910de0ac39523002dbdf5d86b5b1fd6e35c9b9cd34a6f394ca1711459d2aa"
+    },
+    "breath5/src/nested_split.py": {
+      "bytes": 4263,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/nested_split.py",
+      "original_sha256": "617c2fdf4abde325a234d99f97e6bbcc557a506aae2d60f197a8468e005b1d12",
+      "sha256": "617c2fdf4abde325a234d99f97e6bbcc557a506aae2d60f197a8468e005b1d12"
+    },
+    "breath5/src/score_runs.py": {
+      "bytes": 8688,
+      "class": "KEEP_CORE",
+      "original_path": "breath5/src/score_runs.py",
+      "original_sha256": "f07789881c1a7cc245397370d087d2289d079cac6be3a5de3f4bb348518264e9",
+      "sha256": "f07789881c1a7cc245397370d087d2289d079cac6be3a5de3f4bb348518264e9"
+    },
+    "breathllm.py": {
+      "bytes": 3042,
+      "class": "KEEP_CORE",
+      "sha256": "5870df4511e0799073772cb563d078e760d146cd9b028d7f0a8b4c921310b8ee"
+    },
+    "breathllm_paths.py": {
+      "bytes": 640,
+      "class": "KEEP_CORE",
+      "sha256": "03dc15bced42018faa1dbc759caa6730f494ef6777a83c5d0ff913aa2256010d"
+    },
+    "breathnas/v3/literature_benchmark/methods/_pool.py": {
+      "bytes": 365,
+      "class": "KEEP_REFERENCE",
+      "original_path": "breathnas/v3/literature_benchmark/methods/_pool.py",
+      "original_sha256": "791cd2f6e548384e0986172943bccc0e85d23d9166d46d3b87ee6aa16a98a2be",
+      "sha256": "791cd2f6e548384e0986172943bccc0e85d23d9166d46d3b87ee6aa16a98a2be"
+    },
+    "breathnas/v3/literature_benchmark/methods/evoapnea.py": {
+      "bytes": 2299,
+      "class": "KEEP_REFERENCE",
+      "original_path": "breathnas/v3/literature_benchmark/methods/evoapnea.py",
+      "original_sha256": "6ee26dfebaebe726b39bb7175be6cd59ea550c51123b774a1d468510b2d40928",
+      "sha256": "6ee26dfebaebe726b39bb7175be6cd59ea550c51123b774a1d468510b2d40928"
+    },
+    "breathnas/v3/literature_benchmark/methods/ma_svm.py": {
+      "bytes": 2053,
+      "class": "KEEP_REFERENCE",
+      "original_path": "breathnas/v3/literature_benchmark/methods/ma_svm.py",
+      "original_sha256": "05cbce8cfdf49effd322ce6dac63c95f0b815ce201f76c4dd2b3a8e49725a611",
+      "sha256": "05cbce8cfdf49effd322ce6dac63c95f0b815ce201f76c4dd2b3a8e49725a611"
+    },
+    "breathnas/v3/literature_benchmark/methods/mahmud_cnn.py": {
+      "bytes": 814,
+      "class": "KEEP_REFERENCE",
+      "original_path": "breathnas/v3/literature_benchmark/methods/mahmud_cnn.py",
+      "original_sha256": "01ef3f3f3e4e0be731730485feb7c928f0b2f7a3a2ac1568fb5f6d3e16b0df37",
+      "sha256": "01ef3f3f3e4e0be731730485feb7c928f0b2f7a3a2ac1568fb5f6d3e16b0df37"
+    },
+    "breathnas/v3/literature_benchmark/methods/respnet.py": {
+      "bytes": 1374,
+      "class": "KEEP_REFERENCE",
+      "original_path": "breathnas/v3/literature_benchmark/methods/respnet.py",
+      "original_sha256": "281df3d3e13c0fbbfdede461bd91da41bf531a9dfe6b2023d7e0258a9247db2d",
+      "sha256": "281df3d3e13c0fbbfdede461bd91da41bf531a9dfe6b2023d7e0258a9247db2d"
+    },
+    "breathnas/v3/literature_benchmark/methods/saha_knn.py": {
+      "bytes": 2162,
+      "class": "KEEP_REFERENCE",
+      "original_path": "breathnas/v3/literature_benchmark/methods/saha_knn.py",
+      "original_sha256": "054aae9181a799dccf2431bff584ba37769cfbe74d8ca03e18cec281aabe4e9b",
+      "sha256": "054aae9181a799dccf2431bff584ba37769cfbe74d8ca03e18cec281aabe4e9b"
+    },
+    "breathnas/v3/literature_benchmark/methods/spitrannet.py": {
+      "bytes": 1970,
+      "class": "KEEP_REFERENCE",
+      "original_path": "breathnas/v3/literature_benchmark/methods/spitrannet.py",
+      "original_sha256": "cdeedfb2437fc6daa4256d2db79f9f89a9175d105c6e7ff96a28117d2820b1f3",
+      "sha256": "cdeedfb2437fc6daa4256d2db79f9f89a9175d105c6e7ff96a28117d2820b1f3"
+    },
+    "breathnas/v3/literature_benchmark/methods/yu_rf.py": {
+      "bytes": 4165,
+      "class": "KEEP_REFERENCE",
+      "original_path": "breathnas/v3/literature_benchmark/methods/yu_rf.py",
+      "original_sha256": "f4c25fa9b9cabd1c54a19e04ef1067d5e4795d4ee3434e06e8819c69a0caadee",
+      "sha256": "f4c25fa9b9cabd1c54a19e04ef1067d5e4795d4ee3434e06e8819c69a0caadee"
+    },
+    "config/历史汇总.json": {
+      "bytes": 2393,
+      "class": "EXPORT_SUMMARY",
+      "sha256": "2e74ea15f8ee5a6481b357a2780c9bad28bb5075d868f912329c0b18fb8eed76"
+    },
+    "config/外部资产.json": {
+      "bytes": 16448,
+      "class": "KEEP_CORE",
+      "sha256": "3ce2f4bbf737ec34188f407f78324a042d952d1771510059e8d266166adaf698"
+    },
+    "config/来源映射.json": {
+      "class": "KEEP_REFERENCE",
+      "note": "自引用项的大小与 SHA256 由 Git 树提供"
+    },
+    "docs/T03模型设计.md": {
+      "bytes": 2783,
+      "class": "KEEP_REFERENCE",
+      "sha256": "4e06776903203927ef2859afdbbb9cf92dc9019430ba513727ec4ae771c5cf91"
+    },
+    "docs/关键实验结果.md": {
+      "bytes": 12541,
+      "class": "KEEP_REFERENCE",
+      "sha256": "34d8d9bb193c627052f82dd5df4856c0eb2777da7dd5c8777f2784b24a51a3e8"
+    },
+    "docs/历史创新与失败结论.md": {
+      "bytes": 2905,
+      "class": "KEEP_REFERENCE",
+      "sha256": "850ad9f1f2f069faed5b5fe0c3fc394a62af6c820dfe2462d2399b10f6edad2b"
+    },
+    "docs/参考文献.md": {
+      "bytes": 9650,
+      "class": "KEEP_REFERENCE",
+      "sha256": "bb537e376148dd7e712cf60e3ad55fc0e2f09c0b45096ba9bc0e68b3e0c68c40"
+    },
+    "docs/实验协议.md": {
+      "bytes": 3289,
+      "class": "KEEP_REFERENCE",
+      "sha256": "159d02ba7ff793836429a9e451ddda9e67b8fe93bac782d5fd409175a3215c84"
+    },
+    "docs/当前研究任务.md": {
+      "bytes": 3074,
+      "class": "KEEP_REFERENCE",
+      "sha256": "9427fbf69b4e8b502f0295bb950543d59f79f5fba9156598ea83fd657145e4b4"
+    },
+    "docs/资产审计与外部依赖.md": {
+      "bytes": 5466,
+      "class": "KEEP_REFERENCE",
+      "sha256": "e5f195b0b68deb50582af1c201b39a333ba15debaa0d92dcd54ac6104f5bd6c6"
+    },
+    "docs/项目交接指南.md": {
+      "bytes": 2252,
+      "class": "KEEP_REFERENCE",
+      "sha256": "43fec87d64dd83093d0185a25ec150901fde002171ba187401f32b147584cc56"
+    },
+    "requirements.txt": {
+      "bytes": 378,
+      "class": "KEEP_CORE",
+      "sha256": "aa0c8dc4b4374de72d8a37e602c0ca34c3a6253536290782eb037ca7af171a90"
+    },
+    "tests/smoke.py": {
+      "bytes": 6288,
+      "class": "KEEP_CORE",
+      "sha256": "4401b0007aad380495b31187feb7208f8140f5b09f528e96c24e0cf32ef54d7f"
+    },
+    "v1.0/experiments/AIX_LICENSE.txt": {
+      "bytes": 1069,
+      "class": "KEEP_REFERENCE",
+      "original_path": "v1.0/experiments/AIX_LICENSE.txt",
+      "original_sha256": "61cb4cbddcb1d1a1483559ed28fb287ca086afa19ee9410493381aca15c29e0e",
+      "sha256": "61cb4cbddcb1d1a1483559ed28fb287ca086afa19ee9410493381aca15c29e0e"
+    },
+    "v1.0/experiments/algorithms/_layers.py": {
+      "bytes": 477,
+      "class": "KEEP_REFERENCE",
+      "original_path": "v1.0/experiments/algorithms/_layers.py",
+      "original_sha256": "09d1aa2652ad60679e376fcb337d147984cd9c96f9b682cf8855283af901c447",
+      "sha256": "09d1aa2652ad60679e376fcb337d147984cd9c96f9b682cf8855283af901c447"
+    },
+    "v1.0/experiments/algorithms/aix_tsdnet_3c.py": {
+      "bytes": 7044,
+      "class": "KEEP_REFERENCE",
+      "original_path": "v1.0/experiments/algorithms/aix_tsdnet_3c.py",
+      "original_sha256": "905d70a36cc1bf70ca1477cfbdae2ef798457debf3b618eaeb78794b32869633",
+      "sha256": "905d70a36cc1bf70ca1477cfbdae2ef798457debf3b618eaeb78794b32869633"
+    },
+    "v1.0/experiments/algorithms/cnn1d.py": {
+      "bytes": 474,
+      "class": "KEEP_REFERENCE",
+      "original_path": "v1.0/experiments/algorithms/cnn1d.py",
+      "original_sha256": "145057c98883e630218f892d57917baf647ec64f1af52d9a41c518c5169837ab",
+      "sha256": "145057c98883e630218f892d57917baf647ec64f1af52d9a41c518c5169837ab"
+    },
+    "v1.0/experiments/algorithms/inceptiontime.py": {
+      "bytes": 1481,
+      "class": "KEEP_REFERENCE",
+      "original_path": "v1.0/experiments/algorithms/inceptiontime.py",
+      "original_sha256": "7df86fcdbcdd0e47ee0db948eef1a5d650d172ae153506c561a2c287546f3873",
+      "sha256": "7df86fcdbcdd0e47ee0db948eef1a5d650d172ae153506c561a2c287546f3873"
+    },
+    "v2.2_ucddb_opentslm/algorithms/factored_readout.py": {
+      "bytes": 1144,
+      "class": "KEEP_CORE",
+      "original_path": "v2.2_ucddb_opentslm/algorithms/factored_readout.py",
+      "original_sha256": "3f4e6746c59898b18cea45da18ebca35e2fd7a45c7891f5064d4f3a2f45edcdc",
+      "sha256": "3f4e6746c59898b18cea45da18ebca35e2fd7a45c7891f5064d4f3a2f45edcdc"
+    },
+    "v2.2_ucddb_opentslm/algorithms/module_combinations.py": {
+      "bytes": 3206,
+      "class": "KEEP_CORE",
+      "original_path": "v2.2_ucddb_opentslm/algorithms/module_combinations.py",
+      "original_sha256": "e9743b7a4918144505ebbe97d0939db39d2e40db84046bca635d9f2514c230d6",
+      "sha256": "e9743b7a4918144505ebbe97d0939db39d2e40db84046bca635d9f2514c230d6"
+    },
+    "v2.2_ucddb_opentslm/algorithms/opentslm.py": {
+      "bytes": 6095,
+      "class": "KEEP_CORE",
+      "original_path": "v2.2_ucddb_opentslm/algorithms/opentslm.py",
+      "original_sha256": "9b897984bccaf2edec001fc8363a2e20f2377a42b95fffb09d52bd535d7707cf",
+      "sha256": "8fe53ca79e0bc5d4906eed52daecde262e9fbb179d410f71a81b415478e8badc"
+    },
+    "v2.2_ucddb_opentslm/algorithms/question_evidence_prompt.py": {
+      "bytes": 3426,
+      "class": "KEEP_CORE",
+      "original_path": "v2.2_ucddb_opentslm/algorithms/question_evidence_prompt.py",
+      "original_sha256": "e68646bd6d97dd938181966cfc13399dcf4e7454558d7851d420ad73687ebf98",
+      "sha256": "e68646bd6d97dd938181966cfc13399dcf4e7454558d7851d420ad73687ebf98"
+    },
+    "v2.2_ucddb_opentslm/algorithms/synchronous_tokens.py": {
+      "bytes": 203,
+      "class": "KEEP_CORE",
+      "original_path": "v2.2_ucddb_opentslm/algorithms/synchronous_tokens.py",
+      "original_sha256": "b3228a3b3441031004403355d35669845b4423093647e8446842f8c7cd87b537",
+      "sha256": "b3228a3b3441031004403355d35669845b4423093647e8446842f8c7cd87b537"
+    },
+    "v2.2_ucddb_opentslm/third_party/OpenTSLM/CONTRIBUTORS.md": {
+      "bytes": 666,
+      "class": "KEEP_CORE",
+      "original_path": "v2.2_ucddb_opentslm/third_party/OpenTSLM/CONTRIBUTORS.md",
+      "original_sha256": "e7deecb77acfbaf008454e491ffe1f3f7cbcf1fa09d19d6ae65ada523178c9ce",
+      "sha256": "e7deecb77acfbaf008454e491ffe1f3f7cbcf1fa09d19d6ae65ada523178c9ce"
+    },
+    "v2.2_ucddb_opentslm/third_party/OpenTSLM/LICENSE.md": {
+      "bytes": 1135,
+      "class": "KEEP_CORE",
+      "original_path": "v2.2_ucddb_opentslm/third_party/OpenTSLM/LICENSE.md",
+      "original_sha256": "6c2252389337981e60871d2b27db85043bc2456d31d708965b71ea58f94a2e37",
+      "sha256": "6c2252389337981e60871d2b27db85043bc2456d31d708965b71ea58f94a2e37"
+    },
+    "v2.2_ucddb_opentslm/third_party/OpenTSLM/REVISION": {
+      "bytes": 85,
+      "class": "KEEP_CORE",
+      "original_path": "v2.2_ucddb_opentslm/third_party/OpenTSLM/REVISION",
+      "original_sha256": "94b45f8c7581917f7f8cbfe02d8105f9f94f694ce69698145ba19a6e64427b59",
+      "sha256": "94b45f8c7581917f7f8cbfe02d8105f9f94f694ce69698145ba19a6e64427b59"
+    },
+    "v2.2_ucddb_opentslm/third_party/OpenTSLM/src/opentslm/model/encoder/TimeSeriesEncoderBase.py": {
+      "bytes": 699,
+      "class": "KEEP_CORE",
+      "original_path": "v2.2_ucddb_opentslm/third_party/OpenTSLM/src/opentslm/model/encoder/TimeSeriesEncoderBase.py",
+      "original_sha256": "9a095133f277708a80a5b8215a7bff5f3678cae8471b0d165ec542865454ef32",
+      "sha256": "9a095133f277708a80a5b8215a7bff5f3678cae8471b0d165ec542865454ef32"
+    },
+    "v2.2_ucddb_opentslm/third_party/OpenTSLM/src/opentslm/model/encoder/TransformerCNNEncoder.py": {
+      "bytes": 3612,
+      "class": "KEEP_CORE",
+      "original_path": "v2.2_ucddb_opentslm/third_party/OpenTSLM/src/opentslm/model/encoder/TransformerCNNEncoder.py",
+      "original_sha256": "63ad72d3e0be9526e3c00f773b4f832e88285bbc8f5c8aaec2ce1a37a3519573",
+      "sha256": "63ad72d3e0be9526e3c00f773b4f832e88285bbc8f5c8aaec2ce1a37a3519573"
+    },
+    "v2.2_ucddb_opentslm/third_party/OpenTSLM/src/opentslm/model/projector/MLPProjector.py": {
+      "bytes": 631,
+      "class": "KEEP_CORE",
+      "original_path": "v2.2_ucddb_opentslm/third_party/OpenTSLM/src/opentslm/model/projector/MLPProjector.py",
+      "original_sha256": "90eb1fd0ac07a2bc13ce450d5504e8689e4973ccee245eeda1ec04f7427730b1",
+      "sha256": "90eb1fd0ac07a2bc13ce450d5504e8689e4973ccee245eeda1ec04f7427730b1"
+    },
+    "v2.2_ucddb_opentslm/third_party/OpenTSLM/src/opentslm/model_config.py": {
+      "bytes": 761,
+      "class": "KEEP_CORE",
+      "original_path": "v2.2_ucddb_opentslm/third_party/OpenTSLM/src/opentslm/model_config.py",
+      "original_sha256": "a91d0c776167cfb32bc9db51a8e3a62c852b8373733566094c20acef3f0539c5",
+      "sha256": "a91d0c776167cfb32bc9db51a8e3a62c852b8373733566094c20acef3f0539c5"
+    },
+    "v3wave/代码/60s五分类baseline.py": {
+      "bytes": 21219,
+      "class": "KEEP_CORE",
+      "original_path": "v3wave/代码/60s五分类baseline.py",
+      "original_sha256": "a97bae950eea990667b599486ee182752b94e2bf94dec679341ae56b3f7b5375",
+      "sha256": "983ed8399b88044b3a881166a7f666c41a54ced46c41bc8cdf3bcb12ffef2a47"
+    },
+    "v3wave/代码/B07基座改造实验.py": {
+      "bytes": 17541,
+      "class": "KEEP_CORE",
+      "original_path": "v3wave/代码/B07基座改造实验.py",
+      "original_sha256": "7cb5299252fb8b2a9e6ce1d0dd839a9e6faa4ff749cdd2646f34ac5ed54021c2",
+      "sha256": "08c28adfba1ccf93c4a7069d1b92b12ef6879e93c62115909e180fb5be671123"
+    },
+    "v3wave/代码/B07基座改造汇总.py": {
+      "bytes": 5400,
+      "class": "KEEP_CORE",
+      "original_path": "v3wave/代码/B07基座改造汇总.py",
+      "original_sha256": "09a23b96e1744fd29061a15a60ce28613c0f0c6c321d4c5e425b087f479e4852",
+      "sha256": "4a55c0d1ac2214e4c35482b59318bac709af27da0357a2bdaef19c7c003b8449"
+    },
+    "v3wave/代码/BreathLLM-R0.py": {
+      "bytes": 29667,
+      "class": "KEEP_CORE",
+      "original_path": "v3wave/代码/BreathLLM-R0.py",
+      "original_sha256": "8c7841ccdb7bf8505da0f9c27f666e56903b6692fa138da4b69d78a799e44b15",
+      "sha256": "81d1a87fef869b58b55652ae3c45a49e334a997e3ced85ffaad42a878d84a79c"
+    },
+    "v3wave/代码/BreathLLM-R1.py": {
+      "bytes": 33744,
+      "class": "KEEP_CORE",
+      "original_path": "v3wave/代码/BreathLLM-R1.py",
+      "original_sha256": "d2aa8729ed37a3d1dbc0ad946e70aa57ac70bc730c4d9576e98b91858aa39f14",
+      "sha256": "4adc6d7e14f6272bd1b040f655c139e22cfd437fb1a760d77cdb7d45ba640aef"
+    },
+    "v3wave/代码/BreathLLM-R2.py": {
+      "bytes": 27749,
+      "class": "KEEP_CORE",
+      "original_path": "v3wave/代码/BreathLLM-R2.py",
+      "original_sha256": "10cb61d302c69705b29a78a464906a8439e009b446eb209ef97413870bf9b6af",
+      "sha256": "bfa0ef433b168feaaaf07c3572e59b1450e1d034f1e2d052e0306e68d8e6fe49"
+    },
+    "v3wave/代码/BreathLLM-R3-PAEL.py": {
+      "bytes": 47261,
+      "class": "KEEP_CORE",
+      "original_path": "v3wave/代码/BreathLLM-R3-PAEL.py",
+      "original_sha256": "2bbc68f7240613887f627c02f658f3526977feb6a9997d24fac165f64c7ea682",
+      "sha256": "74f41e9e9776361c3fd3e4bd43a27f083d6c0b6e54ef938f7b9232f4e000dacb"
+    },
+    "v3wave/代码/M3首批审计.py": {
+      "bytes": 5757,
+      "class": "KEEP_CORE",
+      "original_path": "v3wave/代码/M3首批审计.py",
+      "original_sha256": "d120e7845dba8e00a18ce08aa4aa4de6ccb59c5da6b906434c80a47d3426fd54",
+      "sha256": "1a9fa57f03298202f5ac8e5d2521fc2eecf67360aa3cebf14df4cb3a68641838"
+    },
+    "v3wave/代码/breathllm_m3.py": {
+      "bytes": 20127,
+      "class": "KEEP_CORE",
+      "original_path": "v3wave/代码/breathllm_m3.py",
+      "original_sha256": "1bc63eba56cbb4baa1d702524f345b60265c2e26d4b6b67828160be3578fbf5b",
+      "sha256": "1bc63eba56cbb4baa1d702524f345b60265c2e26d4b6b67828160be3578fbf5b"
+    },
+    "v3wave/代码/发布复现.py": {
+      "bytes": 19710,
+      "class": "KEEP_CORE",
+      "sha256": "87c657a2009ea2f9ea072f141dd7d4d60d02343c33c519138a79278e594eb5d1"
+    },
+    "v3wave/代码/轨道A实验.py": {
+      "bytes": 12250,
+      "class": "KEEP_CORE",
+      "original_path": "v3wave/代码/轨道A实验.py",
+      "original_sha256": "444665bd63671d1ed72a48d13c75ae55508ff23fbb9a867a8bede78f0337feab",
+      "sha256": "3d00a13c2cddf0430777026cc4e5f433c508662d3996b1a9d1117a4a5bb9f1a8"
+    }
+  },
+  "original_references": {
+    "breath5/audit_ucddb.py": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "527e1fc6a87724085c73c2b187063365716019b0cdcc434e9362d48bf3dcffd1"
+    },
+    "docs/新聊天接手指南.md": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "4d2b805b1f8696cc3c5928ce4b4d868252b849f09611e063f4afd9d5e3236c0b"
+    },
+    "v3wave/代码/DT-EMM-v2.py": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "ed0f77477aa1cf02772b97049339c2823f52c9fedaa6315e64f9609c90f643b7"
+    },
+    "v3wave/代码/M3蒸馏汇总.py": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "43715d430f190fb0c735ac42bd9c3f76ba0df169c36f6a2d8974204f53503c8c"
+    },
+    "v3wave/代码/MC-DPT-v2.py": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "8032daae3906a4cb8c38573066404267abadb3baf77ae87386c739c31a07034a"
+    },
+    "v3wave/代码/T03幅值残差.py": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "9559e78e212dc59e14690d9762cdb26c0648184be53ba5a943dbc05d277046f8"
+    },
+    "v3wave/代码/T03残差筛选.py": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "220123d224255e326dc3b798e3c94ec1f40d39cec0f3001fd84fc8018180b85e"
+    },
+    "v3wave/代码/WD-AMT幅值三种子汇总.py": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "29a7f46e93f62324335513577a60f18995104987c504d8b41d92fddb4eb10a9a"
+    },
+    "v3wave/代码/WD-AMT最终验证.py": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "a744b08fbb39b17f35ece1b5b1d9d2cd3c2d0341baf73e93adeca46ce53eb5c5"
+    },
+    "v3wave/文档/60s五分类baseline.sqlite": {
+      "bytes": 2331250688,
+      "class_": "EXCLUDE"
+    },
+    "v3wave/文档/B07基座改造结果.sqlite": {
+      "bytes": 1037455360,
+      "class_": "EXTERNAL"
+    },
+    "v3wave/文档/BreathLLM-R0结果.json": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "0e4b6a7bb1b682691beb9ffdabd9bbe1546d014f829d765432bee1a6dfe551e3"
+    },
+    "v3wave/文档/BreathLLM-R1结果.json": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "f8112cfcccfb557a4cb4a885d929f2932ecd6f2be077e350ccf2e9ae33dbeffd"
+    },
+    "v3wave/文档/BreathLLM-R2结果.json": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "da6bb9816da6b583c002d97cf411e29982bd52db457470381b3ad32dc1796b51"
+    },
+    "v3wave/文档/BreathLLM-R3-PAEL结果.json": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "1ad955b8586ba36926ef3041af98fdc6a0ef0def8b8a8a1913d59032874e445c"
+    },
+    "v3wave/文档/DT-EMM-v2结果.json": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "1ca1e75129bc28367630176dbb2beb5d418cb57eb0c765abdd5479673f416fd5"
+    },
+    "v3wave/文档/M3分批结果.sqlite": {
+      "bytes": 438906880,
+      "class_": "EXCLUDE"
+    },
+    "v3wave/文档/MC-DPT-v2结果.json": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "dad86e43239e559fd8f7698563c65fb9875b150136aedf48f6a1c699eafe2bf7"
+    },
+    "v3wave/文档/WD-AMT幅值三种子汇总.json": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "da62fdd419ae5d6c873966b2711d719c7f30c376a8b0931d45002b0cd7d629cf"
+    },
+    "v3wave/文档/实验协议与推进记录.md": {
+      "class_": "EXPORT_SUMMARY",
+      "original_sha256": "e2504186b1d6e1ddb66d3ce1de7334b0261dfe37516505a02231d9baf873b604",
+      "sections": {
+        "B06/B07": [
+          92,
+          315
+        ],
+        "Baseline": [
+          49,
+          89
+        ],
+        "DT-EMM v2": [
+          3233,
+          3364
+        ],
+        "MC-DPT v2": [
+          3155,
+          3232
+        ],
+        "PAEL": [
+          3680,
+          3835
+        ],
+        "R0": [
+          3365,
+          3534
+        ],
+        "R1": [
+          3535,
+          3615
+        ],
+        "R2": [
+          3616,
+          3679
+        ],
+        "T03-KD": [
+          573,
+          638
+        ],
+        "WD-AMT": [
+          1474,
+          1660
+        ],
+        "幅值三种子": [
+          2731,
+          2813
+        ]
+      }
+    }
+  },
+  "publish_scope": "原项目相对路径及哈希，公开交接包文件清单",
+  "t03": "cce921d90c27ab2a-F02-R07"
+}

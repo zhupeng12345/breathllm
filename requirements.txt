@@ -1,0 +1,19 @@
+# Python 3.12. Install the matching PyTorch wheel first (see README).
+torch==2.4.1
+transformers==4.57.1
+peft==0.19.1
+accelerate==1.14.0
+tokenizers==0.22.1
+safetensors==0.6.2
+huggingface-hub==0.36.0
+sentencepiece==0.2.0
+numpy==2.3.5
+scipy==1.16.3
+pandas==2.2.2
+pyedflib==0.1.42
+scikit-learn==1.8.0
+numba==0.62.1
+llvmlite==0.45.1
+xgboost==3.4.1
+joblib==1.4.2
+threadpoolctl==3.6.0
